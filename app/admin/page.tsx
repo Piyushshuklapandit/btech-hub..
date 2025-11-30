@@ -1,5 +1,8 @@
 "use client"
 
+/* Added force-dynamic to opt out of static generation for pages using useAuth hook */
+export const dynamic = "force-dynamic"
+
 import { useAuth } from "@/context/AuthContext"
 import { useRouter } from "next/navigation"
 import { useEffect, useState } from "react"

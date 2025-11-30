@@ -1,5 +1,8 @@
 "use client"
 
+/* Added force-dynamic to opt out of static generation for pages using useAuth hook */
+export const dynamic = "force-dynamic"
+
 import type React from "react"
 
 import { useState } from "react"
